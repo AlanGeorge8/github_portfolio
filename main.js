@@ -117,13 +117,19 @@ sections.forEach(current =>{
 window.addEventListener('scroll', scrollActive)
 
 /* ----- DOWNLOAD CV FUNCTION ----- */
-function downloadCV() {
+/*/function downloadCV() {
   var cvUrl = 'https://drive.google.com/uc?export=download&id=1uQvEuyc-Y8oUh0XzL0RsLqtbBj1whAKg';
   var link = document.createElement('a');
   link.download = 'Joseph_George_Resume.pdf';
   link.href = cvUrl;
   link.click();
+}*/
+
+function downloadCV() {
+  const cvUrl = "https://drive.google.com/uc?export=download&id=1uQvEuyc-Y8oUh0XzL0RsLqtbBj1whAKg";
+  window.open(cvUrl, "_blank");
 }
+
 
 // Add click event listener for the download CV buttons
 document.getElementById("downloadCvBtn").addEventListener("click", downloadCV);
