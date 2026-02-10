@@ -120,7 +120,7 @@ window.addEventListener('scroll', scrollActive)
 function downloadCV() {
   var cvUrl = 'https://drive.google.com/file/d/1uQvEuyc-Y8oUh0XzL0RsLqtbBj1whAKg/view?usp=drive_link';
   var link = document.createElement('a');
-  link.download = 'VenuExpRes.pdf';
+  link.download = 'Joseph_George_Resume.pdf';
   link.href = cvUrl;
   link.click();
 }
