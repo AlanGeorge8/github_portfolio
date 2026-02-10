@@ -237,13 +237,13 @@ nav{
     margin: auto 0;
     width: 380px;
     height: 380px;
-    border-radius: 55% 45% 55% 45%;
+/*    border-radius: 55% 45% 55% 45%;*/
     overflow: hidden;
-    animation: imgFloat 7s ease-in-out infinite;
+ /*   animation: imgFloat 7s ease-in-out infinite;*/
 }
 .image img{
     width: 380px;
-    height: 380px;
+    height: 700px;
     object-fit: cover;
 }
 @keyframes imgFloat {
