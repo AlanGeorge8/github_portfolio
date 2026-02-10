@@ -141,7 +141,7 @@ function redirectToLinkedIn(){
 }
 
 function redirectToGithub(){
-  window.location.href = "https://github.com/venulothumalla?tab=repositories/"
+  window.location.href = "https://github.com/AlanGeorge8?tab=repositories"
 }
 
 // document.addEventListener("DOMContentLoaded", function() {
