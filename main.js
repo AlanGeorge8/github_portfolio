@@ -118,7 +118,7 @@ window.addEventListener('scroll', scrollActive)
 
 /* ----- DOWNLOAD CV FUNCTION ----- */
 function downloadCV() {
-  var cvUrl = 'https://drive.google.com/file/d/1_4W9XdagiEZzpowsVM6MAfowaI1xj3FT/view?usp=sharing';
+  var cvUrl = 'https://drive.google.com/file/d/1uQvEuyc-Y8oUh0XzL0RsLqtbBj1whAKg/view?usp=drive_link';
   var link = document.createElement('a');
   link.download = 'VenuExpRes.pdf';
   link.href = cvUrl;
@@ -131,7 +131,7 @@ document.getElementById("downloadCvBtnFeatured").addEventListener("click", downl
 document.getElementById("downloadCvBtnAbout").addEventListener("click", downloadCV);
 
 function redirectToLinkedIn(){
-  window.location.href = "https://www.linkedin.com/in/venu-madhav-7073761b3/"
+  window.location.href = ""
 }
 
 function redirectToGithub(){
