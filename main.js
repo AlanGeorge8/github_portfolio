@@ -118,7 +118,7 @@ window.addEventListener('scroll', scrollActive)
 
 /* ----- DOWNLOAD CV FUNCTION ----- */
 function downloadCV() {
-  var cvUrl = 'https://drive.google.com/file/d/1uQvEuyc-Y8oUh0XzL0RsLqtbBj1whAKg/view?usp=drive_link';
+  var cvUrl = 'https://drive.google.com/uc?export=download&id=1uQvEuyc-Y8oUh0XzL0RsLqtbBj1whAKg';
   var link = document.createElement('a');
   link.download = 'Joseph_George_Resume.pdf';
   link.href = cvUrl;
@@ -169,5 +169,5 @@ document.addEventListener("DOMContentLoaded", function() {
   emailjs.init('Tm2DnUNA1-Y5fO2is'); // Replace 'YOUR_PUBLIC_KEY' with your EmailJS Public Key
 
   // Add click event listener for the send button
-  document.querySelector(".btn").addEventListener("click", sendEmail);
+ /* document.querySelector(".btn").addEventListener("click", sendEmail);*/
 });
